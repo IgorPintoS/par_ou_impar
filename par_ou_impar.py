@@ -27,7 +27,7 @@ while True: # loop que roda enquanto for verdadeiro
         print('GAMER OVER.')
         print('=' * 30)
         break # condição de parada, se o resto da divisão da soma for igual a 0 e a escolha do player for ímpar, o programa para.
-    elif soma % 2 != 0 and escolha in 'Pp': # igual ao de cima, porém agora ao contrário.
+    elif soma % 2 != 0 and escolha in 'Pp': # semelhante ao de cima, porém agora ao contrário.
         print(f'Você jogou {player} e o computador {computador}. O total é {soma} que é ÍMPAR!')
         print('GAME OVER.')
         print('=' * 30)
